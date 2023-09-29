@@ -9,6 +9,9 @@ DEVICE_PATH := device/samsung/a7y18lte
 BOARD_CUSTOM_BOOTIMG_MK := device/samsung/a7y18lte/mkbootimg.mk
 TARGET_CUSTOM_DTBTOOL := dtbhtoolExynos
 
+# Include
+TARGET_SPECIFIC_HEADER_PATH := device/samsung/a7y18lte/include
+
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
